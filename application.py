@@ -17,13 +17,13 @@ app = Flask(__name__)
 CORS(app)
 
 # Secret key for JWT encoding/decoding
-SECRET_KEY = 'this is secret key for jwt creation and validation'
+SECRET_KEY = '######'
 
 # Database connection configuration
 DB_HOST = 'localhost'
 DB_NAME = 'postgres'
-DB_USER = 'postgres'
-DB_PASSWORD = '123456'
+DB_USER = '######'
+DB_PASSWORD = '#####'
 
 # Function to get a database connection
 def get_db_connection():
